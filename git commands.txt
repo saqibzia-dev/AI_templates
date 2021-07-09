@@ -1,0 +1,24 @@
+git config --global user.name "saqibzia-dev"
+git config --global user.email "saqib.zia2100@gmail.com"
+touch .gitignore
+git init
+
+git add .
+git commit -m "Initial Commit"
+git status
+--------------------------------------------------------
+# steps when first time using git on new window:
+ssh-keygen -t rsa -b 4096 -C "saqib.zia2100@gmail.com"
+cat <path to id_rsa.pub> #Add this kkey to git hub
+-------------------------------------------------------
+
+git remote add origin <ssh url.git>
+git push origin master
+--------
+steps to modify only:------
+git status # to check new modified files
+git add .
+git commit -m "Added new files"
+git push origin master
+
+-------
