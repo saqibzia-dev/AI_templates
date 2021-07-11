@@ -1,5 +1,5 @@
-git config --global user.name "saqibzia-dev"
-git config --global user.email "saqib.zia2100@gmail.com"
+git config --global user.name "username"
+git config --global user.email "email"
 touch .gitignore
 git init
 
@@ -8,7 +8,7 @@ git commit -m "Initial Commit"
 git status
 --------------------------------------------------------
 # steps when first time using git on new window:
-ssh-keygen -t rsa -b 4096 -C "saqib.zia2100@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "email"
 cat <path to id_rsa.pub> #Add this kkey to git hub
 -------------------------------------------------------
 
